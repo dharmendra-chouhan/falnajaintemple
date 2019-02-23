@@ -1,0 +1,81 @@
+Compiling procedure CONTROL... 
+   No compilation errors.
+
+Compiling procedure TOT... 
+   No compilation errors.
+
+Compiling procedure PRINT1... 
+   No compilation errors.
+
+Compiling WHEN-NEW-FORM-INSTANCE trigger on form...
+   No compilation errors.
+
+Compiling PRE-QUERY trigger on DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling POST-QUERY trigger on DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling WHEN-NEW-RECORD-INSTANCE trigger on DEPOSIT_MASTER data block...
+Compilation error on WHEN-NEW-RECORD-INSTANCE trigger on DEPOSIT_MASTER data block:
+PL/SQL ERROR 201 at line 4, column 71
+identifier 'DEPOSIT_MASTER' must be declared
+PL/SQL ERROR 0 at line 4, column 2
+SQL Statement ignored
+
+Compiling KEY-NEXT-ITEM trigger on DEPO_CODE item in DEPOSIT_MASTER data block...
+Compilation error on KEY-NEXT-ITEM trigger on DEPO_CODE item in DEPOSIT_MASTER data block:
+PL/SQL ERROR 201 at line 7, column 45
+identifier 'DEPOSIT_MASTER' must be declared
+PL/SQL ERROR 0 at line 7, column 8
+SQL Statement ignored
+
+Compiling POST-TEXT-ITEM trigger on DEPO_CODE item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling KEY-NEXT-ITEM trigger on YMAN item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling KEY-NEXT-ITEM trigger on YWOMAN item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling KEY-NEXT-ITEM trigger on BOY item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling KEY-NEXT-ITEM trigger on GIRLS item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling KEY-NEXT-ITEM trigger on CHIRTY_AMT item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on HELP item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on ITEM66 item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on ITEM67 item in DEPOSIT_MASTER data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on ADD item in CONTROL data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on EDIT item in CONTROL data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on SAVE item in CONTROL data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on VIEW item in CONTROL data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on DEL item in CONTROL data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on CLEAR item in CONTROL data block...
+   No compilation errors.
+
+Compiling WHEN-MOUSE-CLICK trigger on EXIT item in CONTROL data block...
+   No compilation errors.
+
+Compilation errors have occurred.

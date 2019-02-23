@@ -1,0 +1,67 @@
+Compiling WHEN-NEW-FORM-INSTANCE trigger on form...
+   No compilation errors.
+
+Compiling POST-QUERY trigger on CUSTOMER_MASTER data block...
+Compilation error on POST-QUERY trigger on CUSTOMER_MASTER data block:
+PL/SQL ERROR 201 at line 3, column 55
+identifier 'ROOM_MASTER' must be declared
+PL/SQL ERROR 0 at line 3, column 1
+SQL Statement ignored
+
+Compiling WHEN-NEW-RECORD-INSTANCE trigger on CUSTOMER_MASTER data block...
+Compilation error on WHEN-NEW-RECORD-INSTANCE trigger on CUSTOMER_MASTER data block:
+PL/SQL ERROR 201 at line 4, column 72
+identifier 'CUSTOMER_MASTER' must be declared
+PL/SQL ERROR 0 at line 4, column 2
+SQL Statement ignored
+
+Compiling POST-INSERT trigger on CUSTOMER_MASTER data block...
+Compilation error on POST-INSERT trigger on CUSTOMER_MASTER data block:
+PL/SQL ERROR 201 at line 5, column 13
+identifier 'DEPOSIT_AMOUNT' must be declared
+PL/SQL ERROR 0 at line 5, column 1
+SQL Statement ignored
+
+Compiling POST-UPDATE trigger on CUSTOMER_MASTER data block...
+Compilation error on POST-UPDATE trigger on CUSTOMER_MASTER data block:
+PL/SQL ERROR 201 at line 2, column 9
+identifier 'DEPOSIT_AMOUNT' must be declared
+PL/SQL ERROR 0 at line 2, column 1
+SQL Statement ignored
+
+Compiling KEY-NEXT-ITEM trigger on CUST_CODE item in CUSTOMER_MASTER data block...
+Compilation error on KEY-NEXT-ITEM trigger on CUST_CODE item in CUSTOMER_MASTER data block:
+PL/SQL ERROR 201 at line 7, column 45
+identifier 'CUSTOMER_MASTER' must be declared
+PL/SQL ERROR 0 at line 7, column 8
+SQL Statement ignored
+
+Compiling POST-TEXT-ITEM trigger on CUST_CODE item in CUSTOMER_MASTER data block...
+   No compilation errors.
+
+Compiling KEY-NEXT-ITEM trigger on DEP_AMT item in CUSTOMER_MASTER data block...
+Compilation error on KEY-NEXT-ITEM trigger on DEP_AMT item in CUSTOMER_MASTER data block:
+PL/SQL ERROR 201 at line 10, column 8
+identifier 'ROOM_MASTER' must be declared
+PL/SQL ERROR 0 at line 10, column 1
+SQL Statement ignored
+
+Compiling WHEN-MOUSE-CLICK trigger on SAVE item in CONTROL data block...
+Compilation error on WHEN-MOUSE-CLICK trigger on SAVE item in CONTROL data block:
+PL/SQL ERROR 201 at line 9, column 8
+identifier 'ROOM_MASTER' must be declared
+PL/SQL ERROR 0 at line 9, column 1
+SQL Statement ignored
+PL/SQL ERROR 201 at line 14, column 8
+identifier 'ROOM_MASTER' must be declared
+PL/SQL ERROR 0 at line 14, column 1
+SQL Statement ignored
+
+Compiling WHEN-MOUSE-CLICK trigger on DEL item in CONTROL data block...
+Compilation error on WHEN-MOUSE-CLICK trigger on DEL item in CONTROL data block:
+PL/SQL ERROR 201 at line 8, column 8
+identifier 'ROOM_MASTER' must be declared
+PL/SQL ERROR 0 at line 8, column 1
+SQL Statement ignored
+
+Compilation errors have occurred.
